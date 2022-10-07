@@ -19,6 +19,8 @@ use App\Models\Movie; //Se indica que usaremos nuestro modelo.
 Route::get('/movies', [MovieController::class, 'all']); //Aqui llamamos a nuestra funcion mediante un controlador.
 Route::get('/movies/{id}', [MovieController::class, 'findById']);
 Route::post('/movies' , [MovieController::class, 'newMovie']);
+Route::put('/movies/{id}',[MovieController::class,'updateMovie']);
+Route::delete('/movies/{id}',[MovieController::class,'deleteMovie']);
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });

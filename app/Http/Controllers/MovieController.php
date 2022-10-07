@@ -28,5 +28,23 @@ class MovieController extends Controller
         $newMovie = Movie::create($data);
         return $newMovie;
     }
+    //Esta funcion actualiza mediante la petición PUT
+    public function updateMovie(Request $request){
+        $movie = Movie::find($request->id);
+        $movie->name = $request->name;
+        $movie->title = $request->title;
+        $movie->synopsis = $request->synopsis;
+        $movie->year = $request->year;
+        $movie->cover = $request->cover;
+        $movie->save();
+
+        return $movie;
+    }
+
+    public function deleteMovie($id){
+        $movie =Movie::find($id);
+        $movie->delete();
+        return $movie;
+    }
 }
 
