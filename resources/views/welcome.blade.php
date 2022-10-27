@@ -26,7 +26,7 @@
             <footer>
                 <p><strong>Conceptualización de entornos de desarrollo de aplicaciones y servicios</strong></p>
                 <p><strong>Alumno: Esaul Navarro</strong></p>
-                <p><strong>Codigo: 211192246</strong></p>
+                <p><strong></strong></p>
                 <p><a href="esaul.nm@outlook.com">Mandar email</a></p>
             </footer>
         </div>
