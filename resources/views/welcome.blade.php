@@ -27,7 +27,7 @@
                 <p><strong>Conceptualización de entornos de desarrollo de aplicaciones y servicios</strong></p>
                 <p><strong>Alumno: Esaul Navarro</strong></p>
                 <p><strong></strong></p>
-                <p><a href="esaul.nm@outlook.com">Mandar email</a></p>
+                <p><a href="test@gmail.com">Mandar email</a></p>
             </footer>
         </div>
         <div class="container p-5 my-5 bg-dark text white">
