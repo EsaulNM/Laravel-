@@ -34,10 +34,13 @@
             <p>Aqui se mostraran la lista de las peliculas</p>
         </div>
         <div class="container p-5 my-5 bg-dark text white">
-            <p>Espacio para las peliculas</p>
+            <p>Espacio para las peliculas.</p>
         </div>
         <div class="container p-5 my-5 bg-dark text white">
-            <p>Espacio para las peliculas</p>
+            <p>Espacio para las peliculas.</p>
+        </div>
+        <div class="container p-5 my-5 bg-dark text white">
+            <p>Espacio para las peliculas.</p>
         </div>
 
 </div>
