@@ -18,41 +18,39 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="app.component.css">
 
-  <title>3.2 Estilos con Bootstrap</title>
+  <title>PI. Integración de Frontend Angular con Backend Laravel</title>
 </head>
 <body>
-  <div class="principal">
-    <div class="container p-5 my-5 bg-dark text white"><header>
-        <img src="https://cdn-icons-png.flaticon.com/512/2459/2459778.png" width="200" height="200" >
-    </header></div>
-
-    <div class="container p-5 my-5 bg-primary text-white">
-        <body>
-            <p>Aquí se colocara la descripcón de las peliculas</p>
-        </body>
+  <div class="principal" >
+    <div class="container p-5 my-5" id="header">
+      <header>
+        <img src="https://cdn-icons-png.flaticon.com/512/2459/2459778.png" width="100" height="100" >
+      </header>
+      <p>Conceptualización de entornos de desarrollo de aplicaciones y servicios</p>
+      <p>PI. Integración de Frontend Angular con Backend Laravel</p>
+      <p>Alumno: Esaul Navarro</p>
     </div>
 
+    <div *ngFor="let movieInfo of movies" class="container p-3 my-4" id="info">
+      <img src="https://cdn-icons-png.flaticon.com/512/2459/2459778.png" width="100" height="100"  >
+      <p>
+        Titulo: {{ movieInfo['title'] }}
+      </p>
+      <p>
+        Autor: {{ movieInfo['name']}}
+      </p>
+      <p>
+        Synopsis: {{ movieInfo['synopsis']}}
+      </p>
+      <p>
+        Año: {{ movieInfo['year'] }}
+      </p>
+      <br>
+    </div>
     <div class="container p-5 my-5" id="footer">
         <footer>
-            <p><strong>Conceptualización de entornos de desarrollo de aplicaciones y servicios</strong></p>
-            <p><strong>Alumno: Esaul Navarro</strong></p>
-            <p><strong></strong></p>
-            <p><a href="test@gmail.com">Mandar email</a></p>
         </footer>
     </div>
-    <div class="container p-5 my-5 bg-dark text white">
-        <p>Aqui se mostraran la lista de las peliculas</p>
-    </div>
-    <div class="container p-5 my-5 bg-dark text white">
-        <p>Espacio para las peliculas.</p>
-    </div>
-    <div class="container p-5 my-5 bg-dark text white">
-        <p>Espacio para las peliculas.</p>
-    </div>
-    <div class="container p-5 my-5 bg-dark text white">
-        <p>Espacio para las peliculas.</p>
-    </div>
-
 </div>
   
 </body>

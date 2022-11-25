@@ -1,9 +1,22 @@
 .principal {
     border-radius: 15px;
+    background-image: url(https://img.freepik.com/vector-gratis/patron-fondo-cine_1061-522.jpg);
 }
 
-#footer {
-    background-image: url(https://img.freepik.com/vector-gratis/patron-fondo-cine_1061-522.jpg);
+#footer, #principal {
     text-align: center;
     font-size: 25px;
+}
+
+#info {
+    text-align: center;
+    font-size: 16px;
+    background-color: #DCC0B9;
+}
+
+#header {
+    text-align: center;
+    font-size: 25px;
+    background-color:#767676;
+    color: aliceblue;
 }
